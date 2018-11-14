@@ -7,13 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7486319f-354f-4ac3-86bc-1f17983e1b4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/action/portal/UserAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FirstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/mybatis_generator_db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/mybatis_generator_db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstProject_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/action/Emall_UserAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/Emall_userDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/Emall_user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/impl/Emall_userServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/Emall_userService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Emall_userDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/service/impl/Emall_userServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Emall_userDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user-mapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,43 +45,44 @@
     <session id="1665939000">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="1463" />
+          <entry key="dummy" value="25" />
+          <entry key="java" value="5780" />
           <entry key="properties" value="10" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="169" />
+          <entry key="xml" value="670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1463" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JAVA" value="5780" />
+          <entry key="PLAIN_TEXT" value="37" />
           <entry key="Properties" value="10" />
-          <entry key="SQL" value="4" />
-          <entry key="XML" value="165" />
+          <entry key="SQL" value="8" />
+          <entry key="XML" value="662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="48" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="JAVA" value="48" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -73,81 +90,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/Consts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="288">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/Emall_UserAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/portal/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/Emall_userDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="-2983">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/Emall_userService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/Emall_userServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1586#1587#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Emall_userDao.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/backend/UserManageAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="152" column="11" lean-forward="true" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+            <state relative-caret-position="199">
+              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/ResponseCode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="329">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="198" column="46" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/TokenCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="174" column="11" lean-forward="true" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -155,20 +185,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
                 <element signature="e#843#844#0" expanded="true" />
                 <element signature="e#877#878#0" expanded="true" />
                 <element signature="e#903#904#0" expanded="true" />
                 <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,20 +217,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/mybatis_generator_db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/Emall_user.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/service/impl/Emall_userServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/action/Emall_UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/Emall_userService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/service/impl/Emall_userServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/Emall_userDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/Emall_UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/Emall_userDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/Emall_userDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/service/impl/Emall_userServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/Emall_userService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/Emall_UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/service/impl/Emall_userServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/Consts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/TokenCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/commons/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/action/backend/UserManageAction.java" />
       </list>
     </option>
   </component>
@@ -261,10 +301,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="589" />
-    <option name="y" value="51" />
+    <option name="x" value="381" />
+    <option name="y" value="52" />
     <option name="width" value="1321" />
-    <option name="height" value="993" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -568,8 +608,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -631,6 +669,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
               <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -653,6 +702,17 @@
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -685,6 +745,17 @@
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="iservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -792,12 +863,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542095426887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542197290007" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -812,11 +885,16 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company.service.impl" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.action" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\ideaworks\FirstProject\src\main\java\com\company\action\commons" />
+      <recent name="D:\develop\ideaworks\FirstProject\src\main\resources" />
+      <recent name="D:\develop\ideaworks\FirstProject\src\main\java\com\company\dao\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -831,23 +909,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Emall_userServiceImplTest.updateByPrimaryKeySelective">
-    <configuration name="Emall_userServiceImplTest.deleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.Emall_userServiceImplTest" />
-      <option name="METHOD_NAME" value="deleteByPrimaryKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.login">
     <configuration name="Emall_userServiceImplTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <extension name="coverage">
@@ -907,6 +969,22 @@
       <option name="PACKAGE_NAME" value="com.company.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.company.service.impl.Emall_userServiceImplTest" />
       <option name="METHOD_NAME" value="updateByPrimaryKeySelective" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1050,19 +1128,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat8InIdea" />
-      <item itemvalue="JUnit.Emall_userServiceImplTest.deleteByPrimaryKey" />
       <item itemvalue="JUnit.Emall_userServiceImplTest.selectByPrimaryKey" />
       <item itemvalue="JUnit.Emall_userServiceImplTest.updateByPrimaryKeySelective" />
       <item itemvalue="JUnit.Emall_userServiceImplTest.insertSelective" />
       <item itemvalue="JUnit.Emall_userServiceImplTest.insert" />
+      <item itemvalue="JUnit.UserServiceImplTest.login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.login" />
+        <item itemvalue="JUnit.Emall_userServiceImplTest.selectByPrimaryKey" />
         <item itemvalue="JUnit.Emall_userServiceImplTest.updateByPrimaryKeySelective" />
         <item itemvalue="JUnit.Emall_userServiceImplTest.insertSelective" />
         <item itemvalue="JUnit.Emall_userServiceImplTest.insert" />
-        <item itemvalue="JUnit.Emall_userServiceImplTest.selectByPrimaryKey" />
-        <item itemvalue="JUnit.Emall_userServiceImplTest.deleteByPrimaryKey" />
       </list>
     </recent_temporary>
   </component>
@@ -1079,6 +1157,7 @@
       <workItem from="1541991546309" duration="560000" />
       <workItem from="1541997303054" duration="791000" />
       <workItem from="1542070956888" duration="14803000" />
+      <workItem from="1542163847028" duration="20242000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1541991856984</created>
@@ -1091,45 +1170,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 13h 42m 37s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 13h 45m 50s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 13h 46m 48s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insert - 2018.11.13 at 13h 51m 43s.xml">
-      <configuration name="Emall_userServiceImplTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insert - 2018.11.13 at 13h 58m 15s.xml">
-      <configuration name="Emall_userServiceImplTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 14h 00m 11s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 14h 01m 12s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_insertSelective - 2018.11.13 at 14h 02m 07s.xml">
-      <configuration name="Emall_userServiceImplTest.insertSelective" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Emall_userServiceImplTest_updateByPrimaryKeySelective - 2018.11.13 at 14h 04m 52s.xml">
-      <configuration name="Emall_userServiceImplTest.updateByPrimaryKeySelective" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Emall_userServiceImplTest_updateByPrimaryKeySelective - 2018.11.13 at 14h 05m 01s.xml">
       <configuration name="Emall_userServiceImplTest.updateByPrimaryKeySelective" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Emall_userServiceImplTest_selectByPrimaryKey - 2018.11.14 at 14h 22m 35s.xml">
+      <configuration name="Emall_userServiceImplTest.selectByPrimaryKey" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Emall_userServiceImplTest_selectByPrimaryKey - 2018.11.14 at 14h 24m 31s.xml">
+      <configuration name="Emall_userServiceImplTest.selectByPrimaryKey" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Emall_userServiceImplTest_selectByPrimaryKey - 2018.11.14 at 14h 25m 07s.xml">
+      <configuration name="Emall_userServiceImplTest.selectByPrimaryKey" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 29m 36s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 35m 12s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 35m 32s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 35m 59s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 36m 44s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2018.11.14 at 14h 37m 14s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16154000" />
+    <option name="totallyTimeSpent" value="36396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="589" y="51" width="1321" height="993" extended-state="0" />
+    <frame x="381" y="52" width="1321" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22283901" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1137,10 +1216,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0035885167" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5528365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1768953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1153,6 +1231,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.050055616" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1175,48 +1254,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/mybatis_generator_db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1231,20 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/pojo/Emall_user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="128" selection-start-line="26" selection-start-column="128" selection-end-line="26" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1252,24 +1275,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/Emall_userServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="963">
+          <caret line="168" column="21" lean-forward="true" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2940">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="396">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="26" column="122" selection-start-line="26" selection-start-column="122" selection-end-line="26" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/mybatis_generator_db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/Emall_userServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="52" column="67" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="64" column="80" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/emall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/Consts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/ResponseCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
@@ -1281,67 +1391,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
             <element signature="e#843#844#0" expanded="true" />
             <element signature="e#877#878#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
             <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/Emall_userServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/Emall_userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/Emall_UserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/commons/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/Emall_userDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="329">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Emall_userDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="152" column="11" lean-forward="true" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        <state relative-caret-position="337">
+          <caret line="174" column="11" lean-forward="true" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="198" column="46" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/portal/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2983">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/action/backend/UserManageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

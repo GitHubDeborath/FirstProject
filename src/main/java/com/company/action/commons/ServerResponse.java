@@ -52,9 +52,9 @@ public class ServerResponse<T> implements Serializable {
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),data);
     }
     public static<T> ServerResponse<T> createSuccessResponse(String msg,T data){
-        return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),data);
+        return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),msg,data);
     }
-    public static<T> ServerResponse<T> createSuccessResponse(String msg){
+    public static<T> ServerResponse<T> createSuccessMsgResponse(String msg){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),msg);
     }
 
@@ -66,9 +66,9 @@ public class ServerResponse<T> implements Serializable {
         return new ServerResponse<T>(ResponseCode.ERROR.getCode(),data);
     }
     public static<T> ServerResponse<T> createErrorResponse(String msg,T data){
-        return new ServerResponse<T>(ResponseCode.ERROR.getCode(),data);
+        return new ServerResponse<T>(ResponseCode.ERROR.getCode(),msg,data);
     }
-    public static<T> ServerResponse<T> createErrorResponse(String msg){
+    public static<T> ServerResponse<T> createErrorMsgResponse(String msg){
         return new ServerResponse<T>(ResponseCode.ERROR.getCode(),msg);
     }
     public static<T> ServerResponse<T> createErrorResponse(int errCode,String errMsg){

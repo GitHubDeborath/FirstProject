@@ -1,18 +1,37 @@
 package com.company.service.iservice;
 
+import com.company.action.commons.ServerResponse;
 import com.company.dao.pojo.User;
-import com.company.service.vo.PageVO;
-import org.apache.ibatis.annotations.Param;
-
-import java.util.List;
 
 public interface UserService {
-    public User findById(Integer userId);
-    public String save(User user);
-    public String update(User user);
-    public String delete(User user);
-    public List<User> findByPage(PageVO pageVO);
-    public List<User> findAll();
-    public List<User> findByName(String username);
-    public void sessionCache();
+    String deleteByPrimaryKey(Integer id);
+
+    String insert(User record);
+
+    String insertSelective(User record);
+
+    User selectByPrimaryKey(Integer id);
+
+    String updateByPrimaryKeySelective(User record);
+
+    String updateByPrimaryKey(User record);
+
+    public ServerResponse<User> login(String username, String password);
+
+    ServerResponse<String> checkValid(String str, String type);
+
+    ServerResponse<String> registry(User user);
+
+    ServerResponse<String> getQuestionByUsername(String username);
+
+    ServerResponse<String> checkAnswer(String username, String question, String answer);
+
+    ServerResponse<String> forgetResetPassword(String username, String passwordNew, String forgetToken);
+
+    ServerResponse<String> resetPassword(String passwordOld, String passwordNew, User user);
+
+    ServerResponse<User> updateInformation(User user);
+
+    ServerResponse<User> getInformation(Integer id);
+
 }

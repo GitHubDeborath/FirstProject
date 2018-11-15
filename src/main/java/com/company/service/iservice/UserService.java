@@ -34,4 +34,5 @@ public interface UserService {
 
     ServerResponse<User> getInformation(Integer id);
 
+    ServerResponse checkAdminRole(User user);
 }

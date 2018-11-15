@@ -7,6 +7,7 @@ import com.company.dao.UserDao;
 import com.company.dao.pojo.User;
 import com.company.dao.util.MD5Util;
 import com.company.service.iservice.UserService;
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -201,6 +202,14 @@ updateUser.setAnswer(user.getAnswer());
         }else {
             return ServerResponse.createErrorMsgResponse("用户不存在");
         }
+    }
+
+    @Override
+    public ServerResponse checkAdminRole(User user) {
+        if(user!=null && user.getRole().intValue()== Consts.Role.ROLE_ADMIN){
+            return ServerResponse.createSuccessResponse();
+        }
+        return ServerResponse.createErrorResponse();
     }
 
 
